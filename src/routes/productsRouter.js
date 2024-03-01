@@ -93,7 +93,7 @@ app.put('/:pid', (req, res) => {
       return res.status(404).json({ error: 'Producto no encontrado' });
     }
 
-    // Actualizar los campos del producto
+    // Actualizo los campos del producto
     product.title = req.body.title;
     product.description = req.body.description;
     product.code = req.body.code;

@@ -6,7 +6,7 @@ import cartsRouter from './routes/cartsRouter';
 const app = express();
 const ProductManager = require('./managers/ProductManager.js');
 
-//parametros de config
+//parametros de configuración
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
